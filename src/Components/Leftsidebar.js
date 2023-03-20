@@ -17,7 +17,7 @@ const Leftsidebar = () => {
             <ul className={style} id="accordionSidebar">
 
                 {/*  <!-- Sidebar - Brand --> */}
-                <a className="sidebar-brand d-flex align-items-center justify-content-center" href="#">
+                <a   className="sidebar-brand d-flex align-items-center justify-content-center" href="#">
                     <div className="sidebar-brand-icon rotate-n-15">
                         <i className="fas fa-laugh-wink"></i>
                     </div>
@@ -47,7 +47,7 @@ const Leftsidebar = () => {
 
                 {/*  <!-- Nav Item - Pages Collapse Menu --> */}
                 <li className="nav-item">
-                    <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                    <a className=" collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                         aria-expanded="true" aria-controls="collapseTwo">
                         <i className="fas fa-fw fa-cog"></i>
                         <span>Components</span>
